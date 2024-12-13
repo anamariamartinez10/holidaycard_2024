@@ -3,16 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/pages/index.css" />
+    <link rel="icon" href="favicon.ico" />
     <title>2024 Holiday Card</title>
 </head>
-<body>
-    <header class="header">Edit</header>
+<body class="page">
+    <header class="header">
+        <!-- Ticker Tape of Greetings -->
+        <div class="header header__text ticker-tape">
+            <div class="ticker-tape__text">
+                <span>Merry Christmas</span>
+                <span>Feliz Navidad</span>
+                <span>Keresimesi</span>
+                <span>Feliz Natal</span>
+                <span>Happy Holidays!</span>
+                <span>A Lichtiger Hanukkah</span>
+            </div>
+            <div class="header header__text ticker-tape__text" aria-hidden="true">
+                <span>Merry Christmas</span>
+                <span>Feliz Navidad</span>
+                <span>Keresimesi</span>
+                <span>Feliz Natal</span>
+                <span>Happy Holidays!</span>
+                <span>A Lichtiger Hanukkah</span>
+            </div>
+          </div>
+    </header>
     <main class="content">
-        <p class="tree" style="font-size: 150px;">&#127876;</p>
-        <iframe style="border-radius:12px"  src="https://open.spotify.com/embed/playlist/1OCb4lBu5DKRDfJfasJzO7?utm_source=generator" max-width="350" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <img 
+            src="./images/christmas-tree.png" 
+            alt="Christmas Tree" 
+            class="content__image"
+        />
+        <iframe 
+            style="border-radius:12px"  
+            src="https://open.spotify.com/embed/playlist/1OCb4lBu5DKRDfJfasJzO7?utm_source=generator" 
+            height="152" 
+            frameBorder="0" 
+            allowfullscreen="" 
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+            loading="lazy" class="content__music">
+        </iframe>
 
     </main>
     <footer class="footer">
+        <p class="footer__text">
+            With love and blessings for a joyful 2025, 
+            Ana Maria Martinez
+        </p>
 
     </footer>
     

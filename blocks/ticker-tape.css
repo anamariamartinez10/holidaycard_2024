@@ -1,0 +1,44 @@
+.ticker-tape {
+    overflow-x: hidden;
+    display: flex;
+}
+
+.ticker-tape__text {
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto;
+    gap: 1rem;
+    animation-name: marquee;
+    animation-duration: 60s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-direction: reverse;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+/* Media query at 590px:
+Give music padding
+Resize music 296px wide
+padding at top of music 40px
+font at bottom 16px
+font at top 32px*/

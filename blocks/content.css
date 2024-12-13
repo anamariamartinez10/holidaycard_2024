@@ -1,0 +1,16 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content__image {
+    margin: 0 auto;
+    padding: 48px 0 0;
+}
+
+.content__music {
+    width: 587px;
+    max-height: 175px;
+    margin: 20px auto;
+}

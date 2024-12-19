@@ -6,11 +6,12 @@
 
 .content__image {
     margin: 0 auto;
-    padding: 48px 0 0;
+    padding: 20px 0 0;
+    max-height: ;
 }
 
 .content__music {
-    width: 587px;
-    max-height: 175px;
+    /* width: 587px;
+    max-height: 175px; */
     margin: 20px auto;
 }

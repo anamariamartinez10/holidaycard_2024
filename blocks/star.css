@@ -1,8 +1,71 @@
 .star__container {
-
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
 }
 
-/* star image: \2B50 
-span {
-  content: "\2606";
-}*/
+.star__image {
+  width: 20px;
+  height: 20px;
+}
+
+.star__image:first-of-type {
+  animation: fallingLong 25s ease-in-out infinite;
+}
+
+.star__image:nth-of-type(2) {
+  animation: falling 25s ease-in-out infinite;
+}
+
+.star__image:nth-of-type(3) {
+  animation: fallingMed 15s ease-in-out infinite;
+}
+
+.star__image:nth-of-type(4) {
+  animation: falling 20s ease-in infinite;
+}
+
+.star__image:nth-of-type(5) {
+  animation: fallingMed 10s ease-in-out infinite;
+}
+
+.star__image:last-of-type {
+  animation: fallingLong 30s ease-in-out infinite;
+}
+
+@keyframes falling {
+  0% {
+    transform: translate(0) rotate(90deg);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(10px, 350px) rotate(-180deg);
+    opacity: .5;
+  }
+}
+
+@keyframes fallingMed {
+  0% {
+    transform: translate(0) rotate(90deg);
+    opacity: .2;
+  }
+
+  100% {
+    transform: translate(10px, 400px) rotate(-90deg);
+    opacity: .7;
+  }
+}
+
+@keyframes fallingLong {
+  0% {
+    transform: translate(0) rotate(90deg);
+    opacity: .5;
+  }
+
+  100% {
+    transform: translate(10px, 700px) rotate(-180deg);
+    opacity: 1;
+  }
+}

@@ -3,5 +3,6 @@
     font-family: "JosefinSans", Arial, Helvetica, sans-serif;
     font-size: 40px;
     color: #FF3636; 
+    overflow: hidden;
 }
 

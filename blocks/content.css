@@ -7,11 +7,9 @@
 .content__image {
     margin: 0 auto;
     padding: 20px 0 0;
-    max-height: ;
+    max-height: 300px;
 }
 
 .content__music {
-    /* width: 587px;
-    max-height: 175px; */
     margin: 20px auto;
 }

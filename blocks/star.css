@@ -69,3 +69,14 @@
     opacity: 1;
   }
 }
+
+
+@media screen and (max-width: 430px){
+  .star__image:nth-of-type(2) {
+    animation: falling 35s ease-out infinite;
+  }
+
+  .star__image:nth-of-type(5) {
+    animation: fallingMed 30s ease-in infinite;
+  }
+}
